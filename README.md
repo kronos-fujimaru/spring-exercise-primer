@@ -20,7 +20,7 @@ Eclipse上で Spring Starterプロジェクト「spring-exercise」を作成し�
 List<String> fruits = Arrays.asList("Apple", "Banana", "Cherry", "Dragon Fruits");
 ```
 
-<img src="img/01_01.png" width="500">
+<img src="img/01_01.png" width="700">
 
 <br><br>
 
@@ -105,7 +105,7 @@ public class FruitForm {
 - FruitServiceインターフェースを実装するFruitServiceImplで「テキストボックスの入力値 + "を追加しました。"」とコンソールに表示する。
 - コンソール表示後にshowメソッドにリダイレクトする。
 
-<img src="img/01_02.png" width="500">
+<img src="img/01_02.png" width="700">
 
 
 
@@ -123,4 +123,4 @@ INFO : String com.exercise.controller.FruitController.show(Model)
 
 <br>
 
-> ヒント：クラス名とメソッド名の取得には、JoinPointのgetSignature()メソッドが使えます。
+> ヒント：クラス名とメソッド名の取得には、JoinPointインターフェースのgetSignature()メソッドが使えます。
