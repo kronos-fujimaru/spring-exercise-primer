@@ -99,7 +99,7 @@ public class FruitForm {
 
 ### 演習2
 
-リスト要素の下にテキストボックスと登録ボタンを追加し、以下の処理を実装しなさい。
+リスト要素の下にフルーツ名テキストボックスと登録ボタンを追加し、以下の処理を実装しなさい。
 
 - 登録ボタン押下時にFruitControllerのaddメソッドを実行する。
 - FruitServiceインターフェースを実装するFruitServiceImplで「テキストボックスの入力値 + "を追加しました。"」とコンソールに表示する。
@@ -124,3 +124,17 @@ INFO : String com.exercise.controller.FruitController.show(Model)
 <br>
 
 > ヒント：クラス名とメソッド名の取得には、JoinPointインターフェースのgetSignature()メソッドが使えます。
+
+<br>
+
+<hr>
+
+### 演習4
+
+フルーツ名テキストボックスについて以下のバリデーションを追加し、画面にエラーメッセージを表示しなさい。
+
+- 必須チェック
+- 桁数チェック（30文字以内）
+
+<img src="img/01_03.png" height="300">
+<img src="img/01_04.png" height="300">
