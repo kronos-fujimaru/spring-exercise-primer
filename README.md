@@ -134,7 +134,7 @@ INFO : String com.exercise.controller.FruitController.show(Model)
 フルーツ名テキストボックスについて以下のバリデーションを追加し、画面にエラーメッセージを表示しなさい。
 
 - 必須チェック
-- 桁数チェック（30文字以内）
+- 桁数チェック（最大30文字）
 
 <img src="img/01_03.png" height="300">
 <img src="img/01_04.png" height="300">
